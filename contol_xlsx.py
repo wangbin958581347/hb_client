@@ -9,6 +9,7 @@ strategy_address = {'buy_strategy1':'a9',
                     'buy_strategy3':'p9',
                     'buy_strategy4':'u9',
                     'buy_strategy5':'y9',
+                    'buy_strategy6':'ah9',
                     'sell_strategy1':'a25',
                     'sell_strategy2':'k25',
                     'sell_strategy3':'s25'}
