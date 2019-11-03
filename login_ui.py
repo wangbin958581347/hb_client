@@ -5,14 +5,14 @@ import urllib
 import json
 
 from conf.urls_dict import urls_dict
-from contol_xlsx import (set_rule_to_excel,
-                        get_rule_from_excel,
-                        set_combin_strategy_to_excel,
-                        get_combin_strategy_from_excel,
-                        set_selling_orders,
-                        set_over_orders,
-                        set_symbol_list,
-                        get_symbol_list)
+from station_control import (set_rule_to_excel,
+                            get_rule_from_excel,
+                            set_combin_strategy_to_excel,
+                            get_combin_strategy_from_excel,
+                            set_selling_orders,
+                            set_over_orders,
+                            set_symbol_list,
+                            get_symbol_list)
 
 
 def get_response(url,data):

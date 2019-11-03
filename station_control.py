@@ -74,7 +74,7 @@ def set_combin_strategy_to_excel(combin_strategy_json):
     sht.range('c20').value = data
     sht.activate()
     result = {'result':True,
-              'msg':'使用交易对已同步到EXCEL中'}
+              'msg':'策略已同步到execl中'}
     return result
 
 # 获取mysql已经配置好的线上交易对
