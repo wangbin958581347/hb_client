@@ -12,7 +12,7 @@ strategy_address = {'buy_strategy1':'a9',
                     'buy_strategy6':'ah9',
                     'sell_strategy1':'a25',
                     'sell_strategy2':'k25',
-                    'sell_strategy3':'s25'}
+                    'sell_strategy3':'u25'}
 
 def sort_data(data):
     sort_result = data.sort_index()
