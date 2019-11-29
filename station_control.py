@@ -118,7 +118,7 @@ def set_symbol_list(symbol_list_json):
     data = pd.read_json(symbol_list_json)
     wb = xw.Book('huobi.xlsx')
     sht = wb.sheets('交易对')
-    table = sht.range('a1').expand('table')
+    table = sht.range('a1').expand('table').options(index = False)
     table.clear_contents()
     table.value = data
     sht.activate()
@@ -130,7 +130,7 @@ def get_symbol_list():
     wb = xw.Book('huobi.xlsx')
     sht = wb.sheets('交易对')
     table = sht.range('a1').expand('table')
-    symbol_data = table.options(pd.DataFrame).value
+    symbol_data = table.options(pd.DataFrame,index = False).value
     symbol_list_json = symbol_data.to_json()
     return symbol_list_json
     
