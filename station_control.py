@@ -4,15 +4,15 @@ import pandas as pd
 import xlwings as xw
 import datetime as dt
 
-strategy_address = {'buy_strategy1':'a9',
-                    'buy_strategy2':'j9',
-                    'buy_strategy3':'p9',
-                    'buy_strategy4':'u9',
-                    'buy_strategy5':'y9',
-                    'buy_strategy6':'ah9',
-                    'sell_strategy1':'a25',
-                    'sell_strategy2':'k25',
-                    'sell_strategy3':'u25'}
+strategy_address = {'buy_strategy1':'a8',
+                    'buy_strategy2':'a25',
+                    'buy_strategy3':'a42',
+                    'buy_strategy4':'a59',
+                    'buy_strategy5':'a76',
+                    'buy_strategy6':'a93',
+                    'sell_strategy1':'a110',
+                    'sell_strategy2':'a122',
+                    'sell_strategy3':'a134'}
 
 def sort_data(data):
     sort_result = data.sort_index()
